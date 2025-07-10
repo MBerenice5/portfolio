@@ -1,10 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Portfolio personal de Michelle Berenice De la Vega" />
+    <title>Michelle Berenice De la Vega</title>
+
+    <link rel="icon"
+          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌼</text></svg>">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Trocchi&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7428d8029f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
 </head>
 <body>
 
+<header>
+    <div>
+        <nav class="nav-header">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about">HOLA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">CONOCIMIENTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="about">
+    <div class="about-container">
+        <div class="about-info">
+            <p class="greeting">¡Hola! Soy</p>
+            <h1 class="name">Michelle Berenice <span class="d-block">De la Vega</span></h1>
+            <p class="description">Front End Developer & UX/UI Designer</p>
+            <a href="#projects" class="button">LO QUE HAGO</a>
+        </div>
+        <img src="assets/Header.png" alt="Ilustración de una mujer utilizando una laptop" class="about-image">
+    </div>
+</section>
+
+
+<section class="section skills-section" id="skills">
+    <div>
+        <h2 class="section-title">Mis conocimientos</h2>
+        <p class="skills-description">
+            Al tener formación tanto en diseño UX/UI como en desarrollo frontend, puedo trabajar un proyecto de forma integral:
+            desde la idea hasta que cobra vida en la web.
+            Combino lo mejor de ambos mundos para crear experiencias digitales que no solo se ven bien,
+            sino que también funcionan de manera intuitiva y eficiente. Estas son las tecnologías que uso para hacerlo posible:
+        </p>
+        <div class="grid skills-grid">
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma Icon" class="skill-img"/>
+                <p class="skill-title">Figma</p>
+            </div>
+            <div class="skill">
+                <i class="devicon-html5-plain colored skill-icon"></i>
+                <p class="skill-title">HTML</p>
+            </div>
+            <div class="skill">
+                <i class="devicon-css3-plain colored skill-icon"></i>
+                <p class="skill-title">CSS</p>
+            </div>
+            <div class="skill">
+                <i class="devicon-javascript-plain colored skill-icon"></i>
+                <p class="skill-title">JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="devicon-typescript-plain colored skill-icon"></i>
+                <p class="skill-title">TypeScript</p>
+            </div>
+            <div class="skill">
+                <i class="devicon-angularjs-plain colored skill-icon"></i>
+                <p class="skill-title">Angular</p>
+            </div>
+            <div class="skill">
+                <i class="devicon-react-plain colored skill-icon"></i>
+                <p class="skill-title">React</p>
+            </div>
+            <div class="skill">
+                <i class="devicon-bootstrap-plain colored skill-icon"></i>
+                <p class="skill-title">Bootstrap</p>
+            </div>
+            <div class="skill">
+                <i class="devicon-sass-plain colored skill-icon"></i>
+                <p class="skill-title">Sass</p>
+            </div>
+            <div class="skill">
+                <i class="devicon-git-plain colored skill-icon"></i>
+                <p class="skill-title">GIT</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="quote-card">
+        <i class="fas fa-quote-right quote-icon"></i>
+        <p class="quote-text">
+            Nunca estoy realmente satisfecho de entender algo; porque, por muy bien que lo entienda,
+            mi comprensión solo puede ser una fracción infinitesimal de todo lo que quiero entender
+            sobre las muchas conexiones y relaciones que se me ocurren.
+        </p>
+        <p class="quote-author">Ada Lovelace</p>
+    </div>
+</section>
+
+
+<section class="section project-section" id="projects">
+    <div>
+        <h2 class="section-title">Mis proyectos</h2>
+        <p class="description-projects">
+            Desde la planificación hasta la implementación, estos proyectos son resultado de unir el diseño UX/UI
+            con el desarrollo frontend para lograr soluciones completas y efectivas.
+        </p>
+
+        <div class="projects-list">
+            <a href="index.html" class="project-card">
+                <img src="./assets/Proyecto1.png" alt="Captura del proyecto Portfolio">
+                <p class="project-title">Portfolio</p>
+            </a>
+
+            <div class="project-card">
+                <img src="./assets/Proyecto2.png" alt="Captura del proyecto 2">
+                <p class="project-title">Proyecto 2</p>
+            </div>
+
+            <div class="project-card">
+                <img src="./assets/Proyecto3.png" alt="Captura del proyecto 3">
+                <p class="project-title">Proyecto 3</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section contact-section" id="contact">
+    <div class="contact-row">
+        <div class="contact-column">
+            <h2 class="section-title">Contactame</h2>
+            <p class="section-description">
+                Si estás buscando a alguien que pueda pensar y diseñar experiencias,
+                pero también llevarlas a código con estilo y funcionalidad.
+                ¡Escribime! Siempre estoy lista para nuevos desafíos.
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/MBerenice5" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i> MBerenice5
+                </a>
+                <a href="https://www.linkedin.com/in/delavega-mi-be/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i> delavega-mi-be
+                </a>
+                <a href="mailto:michelleberenicedelavega@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i> michelleberenicedelavega@gmail.com
+                </a>
+            </div>
+        </div>
+
+        <div class="contact-column form-section">
+            <h2 class="section-title">Escribime</h2>
+            <form action="https://submit-form.com/B6UnDle4F" method="POST" class="contact-form">
+                <div class="input-name-wrapper">
+                    <div class="form-control">
+                        <label>Nombre</label>
+                        <input type="text" name="Nombre" id="firtsname" class="input-firstname input-control"
+                               aria-label="Nombre" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="lastname">Apellido</label>
+                        <input type="text" name="Apellido" id="lastname" class="input-lastname input-control"
+                               aria-label="Apellido" required />
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <div class="icon-center">
+                        <input type="email" name="Email" id="email" class="input-control"
+                               placeholder="ejemplo@dominio.com" aria-label="Email" required />
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="message">Mensaje</label>
+                    <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control"
+                              placeholder="Escribí tu mensaje acá" aria-label="Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="contact-send-btn button">
+                    Enviar
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <nav class="nav-footer">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#about">HOLA</a>
+            </li>
+            <li class="nav-item">
+                <a href="#skills">CONOCIMIENTOS</a>
+            </li>
+            <li class="nav-item">
+                <a href="#projects">PROYECTOS</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact">CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+
+    <ul class="footer-social-list">
+        <li>
+            <a href="https://github.com/MBerenice5" aria-label="Github">
+                <i class="fab fa-github-alt footer-social-icon"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/delavega-mi-be/" aria-label="Linkedin">
+                <i class="fab fa-linkedin-in footer-social-icon"></i>
+            </a>
+        </li>
+        <li>
+            <a href="mailto:michelleberenicedelavega@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope footer-social-icon"></i>
+            </a>
+        </li>
+    </ul>
+    <p class="footer-text">Hecho con <span class="heart">❤️</span> por Michelle Berenice De la Vega</p>
+</footer>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const formControls = document.querySelectorAll('.form-control');
+
+        formControls.forEach(control => {
+            const input = control.querySelector('.input-control');
+            input.classList.remove('valid', 'invalid');
+        });
+    });
+
+    const formControls = document.querySelectorAll('.form-control');
+
+    formControls.forEach(control => {
+        const input = control.querySelector('.input-control');
+
+        input.addEventListener('input', () => {
+            const value = input.value.trim();
+
+            if (value === '') {
+                input.classList.remove('valid', 'invalid');
+                return;
+            }
+
+            if (input.checkValidity()) {
+                input.classList.add('valid');
+                input.classList.remove('invalid');
+            } else {
+                input.classList.add('invalid');
+                input.classList.remove('valid');
+            }
+        });
+    });
+</script>
 </body>
 </html>
